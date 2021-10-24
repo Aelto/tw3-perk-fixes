@@ -10,3 +10,4 @@ The fix addresses all of these issues:
  - The cooldown is now implemented properly using a timestamp to make is save/reload safe
  - The healing actually uses the perk values from the XML files
  - If the damage received were still going to kill you after the healing from the perk, you will be left at around 100 health and the damage will be reduced to 50, leaving you at 50 health. (This was done to make sure damage procs took effect)
+ - A sound is played when the perk triggers, alerting you about its effect.
