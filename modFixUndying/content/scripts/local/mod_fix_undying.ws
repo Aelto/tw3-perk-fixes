@@ -24,4 +24,6 @@ function FixUndying_setDamageAndHealPlayer(player: W3PlayerWitcher, out action: 
   else {
     player.ForceSetStat(BCS_Vitality, resulting_health);
   }
+
+  theSound.SoundEvent( 'gui_character_synergy_effect' );
 }
